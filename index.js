@@ -5,7 +5,7 @@ let searchBtn = document.getElementById("searchBtn");
 // Corrected template literal with backticks
 const hi = async(movie)=>{
     
-  let fetchdata=await fetch(`http://www.omdbapi.com/?apikey=${APIKey}&&t=${movie}`);
+  let fetchdata=await fetch(`https://www.omdbapi.com/?apikey=${APIKey}&&t=${movie}`);
   let jsondata=await fetchdata.json();
   console.log(jsondata);
   document.querySelector('.card').innerHTML=""
