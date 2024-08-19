@@ -2,7 +2,7 @@ let APIKey = "554fb2d6";
 let searchInput = document.getElementById("searchInput");
 let searchBtn = document.getElementById("searchBtn");
 
-// Corrected template literal with backticks
+// Corrected template literal with backticks;
 const hi = async(movie)=>{
     
   let fetchdata=await fetch(`https://www.omdbapi.com/?apikey=${APIKey}&&t=${movie}`);
