@@ -40,7 +40,7 @@ searchBtn.addEventListener("click",function(){
     console.log(movieName);
     
     if(movieName!=''){
-        hi(movieName);
+        (movieName);
     }
     else{
         document.querySelector('.card').innerHTML="<h1>First search movie name!</h1>"
